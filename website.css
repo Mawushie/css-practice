@@ -1,0 +1,85 @@
+body{
+	font-family: Arial;
+	margin: auto;
+}
+.top-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 30px;
+}
+.header{
+	background-color: #5bb59a;
+	width: 100%;
+	height: 150px;	
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.nav{
+	display: flex;
+	background-color: #333333;
+	width: 100%;
+	height: 30px;
+	color: white;
+}
+
+.nav a{
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+	align-self: center;
+}
+
+.content{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 800px;
+	justify-content: flex-start;
+}
+
+.aside{
+	width: 30%;
+	height: 800px;
+	background-color: #f1f1f1;
+	padding: 20px;
+}
+
+.asidePhoto{
+	width: 100%;
+	height: 200px;
+	background-color: #aaaaaa;
+}
+
+.asidePhotoOthers{
+	width: 100%;
+	height: 50px;
+	background-color: #aaaaaa;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	height: 800px;
+	padding: 20px;
+}
+
+.main1 > div , .main2 > div{
+	width: 100%;
+	height: 200px;
+	background-color: #aaaaaa;
+}
+
+.footer{
+	width: 100%;
+	height: 80px;
+	background-color: #dddddd;
+	text-align: center;
+}
+
+
+

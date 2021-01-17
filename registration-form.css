@@ -1,0 +1,81 @@
+body{
+	background-color: #e3edfd;
+	font-family: sans-serif;
+
+}
+h1{
+	font-weight: lighter;
+}
+
+.form{
+	background-color: white;
+	width: 42%;
+	margin: auto;
+	margin-top: 10px;
+	padding: 30px;	
+	border-radius: 7px;	
+}
+
+#reg{
+	border-top: 10px solid #3385ff;
+	border-radius: 2px solid black;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+span{
+	color: red;
+	font-size: 15px;
+}
+
+input[type="text"]{  			/*to target all input with the text type*/
+	border: none;
+	border-bottom: 0.5px solid lightgrey;
+	width: 50%;
+}		
+input[name="reason"]{	/*to target the input that asks why you want to join codetrain*/
+	border: none;
+	border-bottom: 0.5px solid lightgrey;
+	width: 100%;
+}
+
+#footer{
+	background-color: #e3edfd;
+	border: none;
+	padding-top: 5px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	color: grey;
+
+}
+
+button{
+	width: 100px;
+	height: 35px;
+	background-color: #3385ff;
+	color: white;
+	border-radius: 5px;
+	border: none;
+}
+
+
+#footer > div{
+	float: right;
+	padding-bottom: 0px;
+}
+
+#green{
+	width: 200px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #00ff80;
+}
+#google{
+	text-align: center;
+	font-size: 12px;
+	color: grey;
+
+}
+a{
+	color: grey;
+}
